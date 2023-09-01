@@ -1,0 +1,157 @@
+{
+    "demo_message": "* Demo results are truncated for brevity *",
+    "request_parameters": {
+      "amazon_domain": "amazon.com",
+      "type": "reviews",
+      "asin": "B073JYC4XM"
+    },
+    "request_metadata": {
+      "amazon_url": "https://www.amazon.com/product-reviews/B073JYC4XM/"
+    },
+    "product": {
+      "title": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter - 100MB/s, C10, U1, Full HD, A1, Micro SD Card - SDSQUAR-128G-GN6MA",
+      "link": "https://www.amazon.com/SanDisk-128GB-microSDXC-Memory-Adapter/dp/B073JYC4XM/ref=cm_cr_arp_d_product_top?ie=UTF8",
+      "sub_title": {
+        "text": "SanDisk",
+        "link": "https://www.amazon.com/stores/SanDisk/page/CD971F4B-EE23-4EA1-96E3-567678AC9C0A?ref_=ast_bln"
+      },
+      "image": "https://m.media-amazon.com/images/I/41tF51Ka9iL._AC_US60_SCLZZZZZZZ__.jpg",
+      "asin": "B073JYC4XM"
+    },
+    "summary": {
+      "rating": 4.7,
+      "ratings_total": 218627,
+      "ratings_total_filtered": 218627,
+      "reviews_total_filtered": 31719,
+      "reviews_total": 31719,
+      "rating_breakdown": {
+        "five_star": {
+          "percentage": 84,
+          "count": 183646
+        },
+        "four_star": {
+          "percentage": 10,
+          "count": 21862
+        },
+        "three_star": {
+          "percentage": 3,
+          "count": 6558
+        },
+        "two_star": {
+          "percentage": 1,
+          "count": 2186
+        },
+        "one_star": {
+          "percentage": 2,
+          "count": 4372
+        }
+      }
+    },
+    "reviews": [
+      {
+        "id": "R28ZO909H8W3OE",
+        "title": "Good purchase",
+        "body": "I bought it for my son and he is very picky. He really likes it and it works great",
+        "asin": "B073JYC4XM",
+        "body_html": "<span>I bought it for my son and he is very picky. He really likes it and it works great</span>",
+        "link": "https://www.amazon.com/gp/customer-reviews/R28ZO909H8W3OE/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B073JYC4XM",
+        "rating": 5,
+        "date": {
+          "raw": "Reviewed in the United States on August 13, 2023",
+          "utc": "2023-08-13T00:00:00.000Z"
+        },
+        "profile": {
+          "name": "Cheryl Weinberg",
+          "link": "https://www.amazon.com/gp/profile/amzn1.account.AFFATG3T4HYCDNA7WPPUOGFPDKJA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+          "id": "AFFATG3T4HYCDNA7WPPUOGFPDKJA",
+          "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/c7fbd966-23c5-4803-a841-38d2b9e194fd._CR0,0,375,375_SX48_.jpg"
+        },
+        "vine_program": false,
+        "verified_purchase": true,
+        "review_country": "us",
+        "is_global_review": false,
+        "position": 1
+      },
+      {
+        "id": "RHQ8V77WQCWGJ",
+        "title": "La facilidad",
+        "body": "Llego bien y a tiempo muchas gracias.",
+        "asin": "B073JYC4XM",
+        "body_html": "<span class=\"cr-original-review-content\">Llego bien y a tiempo muchas gracias.</span><span class=\"cr-translated-review-content aok-hidden\"></span>",
+        "link": "https://www.amazon.com/gp/customer-reviews/RHQ8V77WQCWGJ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B073JYC4XM",
+        "rating": 5,
+        "date": {
+          "raw": "Reviewed in the United States on August 6, 2023",
+          "utc": "2023-08-06T00:00:00.000Z"
+        },
+        "profile": {
+          "name": "Domingo Flores",
+          "link": "https://www.amazon.com/gp/profile/amzn1.account.AF4KSZ5QS5ZOOEVGXNVCSGMS6I6A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+          "id": "AF4KSZ5QS5ZOOEVGXNVCSGMS6I6A"
+        },
+        "vine_program": false,
+        "verified_purchase": true,
+        "review_country": "us",
+        "is_global_review": false,
+        "position": 2
+      },
+      {
+        "id": "R3QYJRXO3VR7C4",
+        "title": "Reliable",
+        "body": "Solid product, reliable manufacturer. Got it for my switch and still kicking",
+        "asin": "B073JYC4XM",
+        "body_html": "<span>Solid product, reliable manufacturer. Got it for my switch and still kicking</span>",
+        "link": "https://www.amazon.com/gp/customer-reviews/R3QYJRXO3VR7C4/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B073JYC4XM",
+        "rating": 5,
+        "date": {
+          "raw": "Reviewed in the United States on July 19, 2023",
+          "utc": "2023-07-19T00:00:00.000Z"
+        },
+        "profile": {
+          "name": "Angel Torres",
+          "link": "https://www.amazon.com/gp/profile/amzn1.account.AERKPMECJSWUYZQZ6HE3EWL5LVVQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+          "id": "AERKPMECJSWUYZQZ6HE3EWL5LVVQ",
+          "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/5b4d0d1d-d255-4ce6-abc7-4313c655ebb7._CR125,0,250,250_SX48_.jpg"
+        },
+        "vine_program": false,
+        "verified_purchase": true,
+        "review_country": "us",
+        "is_global_review": false,
+        "position": 3
+      },
+      {
+        "id": "RW139C9JW66W9",
+        "title": "Ya mismo tengo mas capacidad en mi cell y eso es fabuloso",
+        "body": "Complacida con la compra ya mismo tengo mas capacidad para mis pics.",
+        "asin": "B073JYC4XM",
+        "body_html": "<span class=\"cr-original-review-content\">Complacida con la compra ya mismo tengo mas capacidad para mis pics.</span><span class=\"cr-translated-review-content aok-hidden\"></span>",
+        "link": "https://www.amazon.com/gp/customer-reviews/RW139C9JW66W9/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B073JYC4XM",
+        "rating": 5,
+        "date": {
+          "raw": "Reviewed in the United States on July 19, 2023",
+          "utc": "2023-07-19T00:00:00.000Z"
+        },
+        "profile": {
+          "name": "zulma",
+          "link": "https://www.amazon.com/gp/profile/amzn1.account.AH6QS5555P5XYCVXJN2N4N26IVMA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
+          "id": "AH6QS5555P5XYCVXJN2N4N26IVMA"
+        },
+        "vine_program": false,
+        "verified_purchase": true,
+        "review_country": "us",
+        "is_global_review": false,
+        "position": 4
+      }
+    ],
+    "pagination": {
+      "ratings_total_filtered": 218627,
+      "reviews_total_filtered": 31719,
+      "reviews_total": 31719,
+      "total_results": 31719,
+      "total_pages": 3172,
+      "message": "There are a high number of reviews for this product. It is likely Amazon will not allow pagination through all of the review pages. Please check the API response for presence of the 'reviews' array before continuing to the next page.",
+      "current_page": 1,
+      "start": 1,
+      "end": 10
+    }
+  }

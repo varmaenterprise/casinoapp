@@ -1,0 +1,14 @@
+#button{
+    background-color:#CF0A0A;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+text-align: center;
+}
+#buttonrow{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0%;
+    padding-top: 2pc;
+}

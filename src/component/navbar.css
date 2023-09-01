@@ -1,0 +1,30 @@
+#logoletter{
+    color: #FFAFAF;
+    font-size:10px;
+    font-family: poppins;
+    font-weight: bold ;
+}
+#brand{
+   color:white;
+    font-family: poppins;
+    font-weight: bold ;
+}
+#custom-nav-link{
+    background-color:#CF0A0A;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin: 0 96px; /* Adjust the second value to control horizontal spacing */
+text-align: center;
+}
+#navbar {
+    background-color: #CF0A0A;
+}
+#nav-link{
+    background-color:#CF0A0A;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin: 0 6px; /* Adjust the second value to control horizontal spacing */
+text-align: center;
+}

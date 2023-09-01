@@ -1,0 +1,99 @@
+#app {
+    height: 100%;
+  }
+  
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+ 
+  
+/* In your cardsmarquee.css */
+
+/* Apply uniform size and spacing to each slide */
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px; /* Adjust the width as needed */
+    height: 350px; /* Adjust the height as needed */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  /* Add space between elements */
+  .slide-description,
+  .slide-name,
+  .slide-rating {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for description */
+  .slide-description {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Style for name */
+  .slide-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Style for rating */
+  .slide-rating {
+    font-size: 14px;
+    color: #888;
+  }
+    /* In your cardsmarquee.css */
+
+/* ... (other styles) */
+
+/* Style for star rating */
+.star-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .star {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: gold; /* Adjust the color as needed */
+    margin-right: 4px; /* Adjust spacing between stars */
+  }
+  
+  .star.half {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 10px; /* Adjust the width as needed */
+  }
+  
+  .star.half:before {
+    content: '\00bd';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: gold; /* Adjust the color as needed */
+  }
+  
