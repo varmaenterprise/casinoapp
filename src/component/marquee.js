@@ -18,7 +18,7 @@ function MarqueeComponent() {
     }, []);
 
     return (
-        <div>
+        <div style={{marginTop:"5pc"}}>
            <marquee>
     {data.map((item, index) => (
         <div key={index} style={{ color: 'white', fontFamily: 'poppins', fontWeight: 'bolder', display: 'inline-block', marginRight: '20px' }}>

@@ -1,157 +1,214 @@
 {
-    "demo_message": "* Demo results are truncated for brevity *",
-    "request_parameters": {
-      "amazon_domain": "amazon.com",
-      "type": "reviews",
-      "asin": "B073JYC4XM"
+  "bettingAppReviews": [
+    {
+      "id": 1,
+      "reviewer_name": "John Doe",
+      "rating": 4.5,
+      "comment": "I really enjoy using this betting app. It's user-friendly and has a wide variety of sports to bet on."
     },
-    "request_metadata": {
-      "amazon_url": "https://www.amazon.com/product-reviews/B073JYC4XM/"
+    {
+      "id": 2,
+      "reviewer_name": "Jane Smith",
+      "rating": 5.0,
+      "comment": "This betting app is amazing! It offers great odds and has a smooth interface. Highly recommended."
     },
-    "product": {
-      "title": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter - 100MB/s, C10, U1, Full HD, A1, Micro SD Card - SDSQUAR-128G-GN6MA",
-      "link": "https://www.amazon.com/SanDisk-128GB-microSDXC-Memory-Adapter/dp/B073JYC4XM/ref=cm_cr_arp_d_product_top?ie=UTF8",
-      "sub_title": {
-        "text": "SanDisk",
-        "link": "https://www.amazon.com/stores/SanDisk/page/CD971F4B-EE23-4EA1-96E3-567678AC9C0A?ref_=ast_bln"
-      },
-      "image": "https://m.media-amazon.com/images/I/41tF51Ka9iL._AC_US60_SCLZZZZZZZ__.jpg",
-      "asin": "B073JYC4XM"
+    {
+      "id": 3,
+      "reviewer_name": "Robert Johnson",
+      "rating": 3.2,
+      "comment": "The app is decent, but I've experienced some issues with payouts. Customer support needs improvement."
     },
-    "summary": {
+    {
+      "id": 4,
+      "reviewer_name": "Alice Anderson",
+      "rating": 4.0,
+      "comment": "I've been using this app for a while, and it's been reliable. However, occasional glitches can be annoying."
+    },
+    {
+      "id": 5,
+      "reviewer_name": "Michael Brown",
+      "rating": 2.5,
+      "comment": "Not satisfied with the app. Odds are not competitive, and the overall experience is below expectations."
+    },
+    {
+      "id": 6,
+      "reviewer_name": "Emily Wilson",
+      "rating": 4.8,
+      "comment": "If you're a sports enthusiast, this app is perfect. It offers a wide range of sports and markets."
+    },
+    {
+      "id": 7,
+      "reviewer_name": "Christopher Taylor",
+      "rating": 3.0,
+      "comment": "It's an average app. There are better options, but it gets the job done for casual bettors."
+    },
+    {
+      "id": 8,
+      "reviewer_name": "Olivia Johnson",
+      "rating": 4.2,
+      "comment": "Fast payouts make this app a good choice. It's reliable and efficient for sports betting."
+    },
+    {
+      "id": 9,
+      "reviewer_name": "Daniel Smith",
+      "rating": 4.6,
+      "comment": "This app is excellent. It has a variety of markets and competitive odds, making it a top choice for betting."
+    },
+    {
+      "id": 10,
+      "reviewer_name": "Sophia Davis",
+      "rating": 4.9,
+      "comment": "I'm highly satisfied with this app. It's the best I've used, offering everything a bettor needs."
+    },
+    {
+      "id": 11,
+      "reviewer_name": "William Martinez",
+      "rating": 3.7,
+      "comment": "It's a good app, but there's room for improvement in terms of the user interface and support."
+    },
+    {
+      "id": 12,
+      "reviewer_name": "Mia Adams",
+      "rating": 4.3,
+      "comment": "Positive experience with this app. It's reliable and offers a variety of betting options."
+    },
+    {
+      "id": 13,
+      "reviewer_name": "James Anderson",
+      "rating": 2.8,
+      "comment": "Not entirely satisfied. Odds are subpar, and technical issues have been frustrating."
+    },
+    {
+      "id": 14,
+      "reviewer_name": "Ava Taylor",
       "rating": 4.7,
-      "ratings_total": 218627,
-      "ratings_total_filtered": 218627,
-      "reviews_total_filtered": 31719,
-      "reviews_total": 31719,
-      "rating_breakdown": {
-        "five_star": {
-          "percentage": 84,
-          "count": 183646
-        },
-        "four_star": {
-          "percentage": 10,
-          "count": 21862
-        },
-        "three_star": {
-          "percentage": 3,
-          "count": 6558
-        },
-        "two_star": {
-          "percentage": 1,
-          "count": 2186
-        },
-        "one_star": {
-          "percentage": 2,
-          "count": 4372
-        }
-      }
+      "comment": "Exceeded my expectations. Smooth experience and great odds make this app stand out."
     },
-    "reviews": [
-      {
-        "id": "R28ZO909H8W3OE",
-        "title": "Good purchase",
-        "body": "I bought it for my son and he is very picky. He really likes it and it works great",
-        "asin": "B073JYC4XM",
-        "body_html": "<span>I bought it for my son and he is very picky. He really likes it and it works great</span>",
-        "link": "https://www.amazon.com/gp/customer-reviews/R28ZO909H8W3OE/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B073JYC4XM",
-        "rating": 5,
-        "date": {
-          "raw": "Reviewed in the United States on August 13, 2023",
-          "utc": "2023-08-13T00:00:00.000Z"
-        },
-        "profile": {
-          "name": "Cheryl Weinberg",
-          "link": "https://www.amazon.com/gp/profile/amzn1.account.AFFATG3T4HYCDNA7WPPUOGFPDKJA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
-          "id": "AFFATG3T4HYCDNA7WPPUOGFPDKJA",
-          "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/c7fbd966-23c5-4803-a841-38d2b9e194fd._CR0,0,375,375_SX48_.jpg"
-        },
-        "vine_program": false,
-        "verified_purchase": true,
-        "review_country": "us",
-        "is_global_review": false,
-        "position": 1
-      },
-      {
-        "id": "RHQ8V77WQCWGJ",
-        "title": "La facilidad",
-        "body": "Llego bien y a tiempo muchas gracias.",
-        "asin": "B073JYC4XM",
-        "body_html": "<span class=\"cr-original-review-content\">Llego bien y a tiempo muchas gracias.</span><span class=\"cr-translated-review-content aok-hidden\"></span>",
-        "link": "https://www.amazon.com/gp/customer-reviews/RHQ8V77WQCWGJ/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B073JYC4XM",
-        "rating": 5,
-        "date": {
-          "raw": "Reviewed in the United States on August 6, 2023",
-          "utc": "2023-08-06T00:00:00.000Z"
-        },
-        "profile": {
-          "name": "Domingo Flores",
-          "link": "https://www.amazon.com/gp/profile/amzn1.account.AF4KSZ5QS5ZOOEVGXNVCSGMS6I6A/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
-          "id": "AF4KSZ5QS5ZOOEVGXNVCSGMS6I6A"
-        },
-        "vine_program": false,
-        "verified_purchase": true,
-        "review_country": "us",
-        "is_global_review": false,
-        "position": 2
-      },
-      {
-        "id": "R3QYJRXO3VR7C4",
-        "title": "Reliable",
-        "body": "Solid product, reliable manufacturer. Got it for my switch and still kicking",
-        "asin": "B073JYC4XM",
-        "body_html": "<span>Solid product, reliable manufacturer. Got it for my switch and still kicking</span>",
-        "link": "https://www.amazon.com/gp/customer-reviews/R3QYJRXO3VR7C4/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B073JYC4XM",
-        "rating": 5,
-        "date": {
-          "raw": "Reviewed in the United States on July 19, 2023",
-          "utc": "2023-07-19T00:00:00.000Z"
-        },
-        "profile": {
-          "name": "Angel Torres",
-          "link": "https://www.amazon.com/gp/profile/amzn1.account.AERKPMECJSWUYZQZ6HE3EWL5LVVQ/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
-          "id": "AERKPMECJSWUYZQZ6HE3EWL5LVVQ",
-          "image": "https://images-na.ssl-images-amazon.com/images/S/amazon-avatars-global/5b4d0d1d-d255-4ce6-abc7-4313c655ebb7._CR125,0,250,250_SX48_.jpg"
-        },
-        "vine_program": false,
-        "verified_purchase": true,
-        "review_country": "us",
-        "is_global_review": false,
-        "position": 3
-      },
-      {
-        "id": "RW139C9JW66W9",
-        "title": "Ya mismo tengo mas capacidad en mi cell y eso es fabuloso",
-        "body": "Complacida con la compra ya mismo tengo mas capacidad para mis pics.",
-        "asin": "B073JYC4XM",
-        "body_html": "<span class=\"cr-original-review-content\">Complacida con la compra ya mismo tengo mas capacidad para mis pics.</span><span class=\"cr-translated-review-content aok-hidden\"></span>",
-        "link": "https://www.amazon.com/gp/customer-reviews/RW139C9JW66W9/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B073JYC4XM",
-        "rating": 5,
-        "date": {
-          "raw": "Reviewed in the United States on July 19, 2023",
-          "utc": "2023-07-19T00:00:00.000Z"
-        },
-        "profile": {
-          "name": "zulma",
-          "link": "https://www.amazon.com/gp/profile/amzn1.account.AH6QS5555P5XYCVXJN2N4N26IVMA/ref=cm_cr_arp_d_gw_btm?ie=UTF8",
-          "id": "AH6QS5555P5XYCVXJN2N4N26IVMA"
-        },
-        "vine_program": false,
-        "verified_purchase": true,
-        "review_country": "us",
-        "is_global_review": false,
-        "position": 4
-      }
-    ],
-    "pagination": {
-      "ratings_total_filtered": 218627,
-      "reviews_total_filtered": 31719,
-      "reviews_total": 31719,
-      "total_results": 31719,
-      "total_pages": 3172,
-      "message": "There are a high number of reviews for this product. It is likely Amazon will not allow pagination through all of the review pages. Please check the API response for presence of the 'reviews' array before continuing to the next page.",
-      "current_page": 1,
-      "start": 1,
-      "end": 10
+    {
+      "id": 15,
+      "reviewer_name": "Liam Brown",
+      "rating": 4.1,
+      "comment": "A good app, but some minor issues need attention. Worth trying for sports bettors."
+    },
+    {
+      "id": 16,
+      "reviewer_name": "Ella Garcia",
+      "rating": 3.5,
+      "comment": "Decent choice for beginners. User-friendly and straightforward."
+    },
+    {
+      "id": 17,
+      "reviewer_name": "Benjamin Johnson",
+      "rating": 4.0,
+      "comment": "Reliable app with competitive odds. A solid choice for betting enthusiasts."
+    },
+    {
+      "id": 18,
+      "reviewer_name": "Grace Smith",
+      "rating": 4.9,
+      "comment": "Outstanding betting experience. No major issues and quick payouts."
+    },
+    {
+      "id": 19,
+      "reviewer_name": "Henry Williams",
+      "rating": 3.3,
+      "comment": "An okay app, but there are better options available. User interface could be improved."
+    },
+    {
+      "id": 20,
+      "reviewer_name": "Chloe Davis",
+      "rating": 4.6,
+      "comment": "Highly satisfied with this app. Offers a variety of sports and markets."
+    },
+    {
+      "id": 21,
+      "reviewer_name": "Alexander Martinez",
+      "rating": 4.2,
+      "comment": "A good app, but some tweaks could improve the user experience."
+    },
+    {
+      "id": 22,
+      "reviewer_name": "Zoe Brown",
+      "rating": 4.7,
+      "comment": "I love this app! It's made my betting experience much better."
+    },
+    {
+      "id": 23,
+      "reviewer_name": "Liam Johnson",
+      "rating": 3.8,
+      "comment": "Decent app, but it doesn't stand out. Gets the job done."
+    },
+    {
+      "id": 24,
+      "reviewer_name": "Nora Adams",
+      "rating": 4.4,
+      "comment": "Satisfied with the app. It's been a valuable tool for my betting activities."
+    },
+    {
+      "id": 25,
+      "reviewer_name": "Lucas Smith",
+      "rating": 4.5,
+      "comment": "Excellent app. Extremely satisfied with it. Top-notch features and odds."
+    },
+    {
+      "id": 26,
+      "reviewer_name": "Isabella Wilson",
+      "rating": 4.8,
+      "comment": "Impressive app! Easy to use and offers a wide range of betting options."
+    },
+    {
+      "id": 27,
+      "reviewer_name": "William Davis",
+      "rating": 3.6,
+      "comment": "A decent betting app, but it could be better. Some areas need improvement."
+    },
+    {
+      "id": 28,
+      "reviewer_name": "Abigail Lee",
+      "rating": 4.7,
+      "comment": "I've had a great experience with this app. Reliable and offers great odds."
+    },
+    {
+      "id": 29,
+      "reviewer_name": "David Clark",
+      "rating": 4.2,
+      "comment": "Good app, but could use some enhancements for a smoother experience."
+    },
+    {
+      "id": 30,
+      "reviewer_name": "Sophie Turner",
+      "rating": 4.5,
+      "comment": "I'm impressed with this app. It's become my go-to choice for betting."
+    },
+    {
+      "id": 31,
+      "reviewer_name": "Ethan Martin",
+      "rating": 3.9,
+      "comment": "A solid app for betting. It's reliable and offers competitive odds."
+    },
+    {
+      "id": 32,
+      "reviewer_name": "Oliver Harris",
+      "rating": 4.1,
+      "comment": "I've had a good experience with this app. The interface is user-friendly."
+    },
+    {
+      "id": 33,
+      "reviewer_name": "Ava Walker",
+      "rating": 4.6,
+      "comment": "Highly satisfied with this app. It has everything I need for betting."
+    },
+    {
+      "id": 34,
+      "reviewer_name": "Henry Turner",
+      "rating": 3.4,
+      "comment": "An average app. Nothing special, but it works for betting."
+    },
+    {
+      "id": 35,
+      "reviewer_name": "Ella Davis",
+      "rating": 4.3,
+      "comment": "I like this app. It's reliable and offers a variety of sports to bet on."
     }
-  }
+    ]
+}

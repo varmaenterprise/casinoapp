@@ -8,7 +8,20 @@
    color:white;
     font-family: poppins;
     font-weight: bold ;
+    font-size: 20px;
 }
+.custom-navbar-brand {
+    display: flex;
+    align-items: center; /* Vertically align the content */
+    padding: 0; /* Remove padding to align the image and text horizontally */
+  }
+  
+  .custom-navbar-brand img {
+    margin-right: 10px; /* Add spacing between the image and text */
+  }
+  
+  
+  
 #custom-nav-link{
     background-color:#CF0A0A;
     color: white;

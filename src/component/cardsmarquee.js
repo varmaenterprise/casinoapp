@@ -3,43 +3,36 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
-import './cardsmarquee.css'
-import { FreeMode, Pagination, Autoplay } from 'swiper/modules'; // Import Autoplay module
-import StarRating from './starrating'; // Import the StarRating component
+import './cardsmarquee.css';
+import { FreeMode, Pagination, Autoplay } from 'swiper/modules';
+import StarRating from './starrating';
+import data from './dummyapi.json'; // Import the JSON data
 
 export default function App() {
-  const [slides, setSlides] = useState([]);
-
-  useEffect(() => {
-    // Fetch data from the API
-    fetch('https://fakestoreapi.com/products/category/jewelery')
-      .then(response => response.json())
-      .then(data => setSlides(data))
-      .catch(error => console.error('Error fetching data:', error));
-  }, []);
+  const [slides, setSlides] = useState(data.bettingAppReviews); // Access the data using the correct key
 
   return (
     <>
       <Swiper
-        slidesPerView={3}
+        slidesPerView={4}
         spaceBetween={30}
         freeMode={true}
-        autoplay={{ delay: 3000 }} // Add autoplay prop with desired delay
+        autoplay={{ delay: 2000 }}
         pagination={{
           clickable: true,
         }}
-        modules={[FreeMode, Pagination, Autoplay]} // Include Autoplay module
+        modules={[FreeMode, Pagination, Autoplay]}
         className="mySwiper"
       >
-       {slides.map((slide, index) => (
-  <SwiperSlide key={index} className="swiper-slide">
-    <p className="slide-description">{slide.description}</p>
-    <p className="slide-name"> Name:<b>{slide.title}</b></p>
-    <div className="slide-rating">
-              <StarRating rating={slide.rating.rate} />
-            </div>  </SwiperSlide>
-))}
-
+        {slides.map((slide, index) => (
+          <SwiperSlide key={index} className="swiper-slide">
+            <p className="slide-description">{slide.comment}</p>
+            <p className="slide-name"><b>{slide.reviewer_name}</b></p>
+            <div className="slide-rating">
+              <StarRating rating={slide.rating} />
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );

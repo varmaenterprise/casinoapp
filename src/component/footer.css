@@ -1,0 +1,43 @@
+.container {
+    color: white;
+    font-size: 14px; /* Adjust the font size to your preference */
+}
+.container.col{
+    margin: 10px;
+}
+.container.row{
+    margin: 10px;
+}
+.container .row:nth-child(2) .col:nth-child(2) {
+    margin: 90px; /* Adjust the margin value as needed for spacing between columns */
+}
+
+/* Reduce font size for the button */
+.container .row .col:nth-child(3) button {
+    color: white;
+    font-size: 12px; /* Adjust the font size for the button */
+}
+.container .row:nth-child(2) .col:nth-child(3) {
+    margin-left: 100px; /* Adjust the margin-left value to move it to the left */
+}
+/* Reduce font size for paragraphs */
+.container .row .col:nth-child(2) p {
+    color: white;
+    font-size: 16px; /* Adjust the font size for paragraphs */
+}
+
+/* Reduce font size for Twitter and WhatsApp logos */
+.container .row:last-child .col img {
+    filter: brightness(0) invert(1); /* Invert the image color to make it white */
+    width: 24px; /* Adjust the width of the logos */
+    height: 24px; /* Adjust the height of the logos */
+}
+/* Style the button */
+.container .row .col:nth-child(3) button {
+    color: white;
+    background-color: red; /* Set the background color to red */
+    font-size: 18px; /* Increase the font size to make it larger */
+    padding: 10px 20px; /* Add padding to increase button size */
+    border: none; /* Remove the button border */
+    border-radius: 10px;
+}

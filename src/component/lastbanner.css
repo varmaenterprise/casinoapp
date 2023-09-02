@@ -1,6 +1,11 @@
-#h3{
+#h33{
     color: white;
     font-size: 48px;
     font-family: poppins;
     font-weight: bold;
+    margin-top: 3pc;
+}
+.img-fleid{
+    max-width: 50%;
+    height: auto;
 }

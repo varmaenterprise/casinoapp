@@ -6,7 +6,8 @@ import Buttonrow from './component/buttonrow';
 import Twocards from './component/twocards';
 import Lastbanner from './component/lastbanner';
 import Review from './component/review';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Footer from './component/footer';
 
 
 
@@ -24,6 +25,8 @@ function App() {
       <Lastbanner/>
       <br/>
       <Review/>
+      <br/>
+      <Footer/>
     </div>
   );
 }

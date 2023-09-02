@@ -1,6 +1,6 @@
 import React from 'react';
 import './centerbanner.css';
-
+import sixthimage from '../images/6.png';
 
 function Centerbanner() {
   return (
@@ -15,7 +15,10 @@ function Centerbanner() {
 <button type="button"  id="button">Casino</button>
 </div>
             </div>
-            <div className='col-md-6'>Image</div>
+            <div className='col-md-6 d-flex justify-content-center align-items-center'>
+  <img src={sixthimage} alt="Image Description" className="img-flid" />
+</div>
+
         </div>
     </div>
   );

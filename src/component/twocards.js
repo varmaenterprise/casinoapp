@@ -1,5 +1,7 @@
 import React from 'react';
 import './twocards.css';
+import sports  from '../images/13.png'
+import casino  from '../images/12.png'
 
 function Twocards() {
     return (
@@ -7,7 +9,7 @@ function Twocards() {
             <div className='row'>
                 <div className='col-md-6'>
                     <div class="card">
-                        <img src="https://codingyaar.com/wp-content/uploads/bootstrap-4-card-image-left-demo-image.jpg" class="card-img-top" />
+                        <img src={sports} class="card-img-top" />
                         <div class="card-body">
                             <h5 class="card-title">Sports</h5>
                             <p class="card-text">
@@ -19,11 +21,13 @@ function Twocards() {
                 </div>
                 <div className='col-md-6'>
                     <div class="card">
-                        <img src="https://codingyaar.com/wp-content/uploads/bootstrap-4-card-image-left-demo-image.jpg" class="card-img-top" />
+                    <img src={casino} class="card-img-top" />
+
                         <div class="card-body">
                             <h5 class="card-title">Casino</h5>
                             <p class="card-text">
-                                We’ve all grown to love the typical brick and mortar casino but there’s just something about online casino that triumphs over the rest. At 3rdEmpire, we believe that playing casino online should be an experience of its own. With thousands of titles available at the click of a button, it’s become possible to play casino online from the comfort of your home. All the while, sit back and immerse yourself in a world of mythical creatures and vigorous jokers
+                                We’ve all grown to love the typical brick and mortar casino but there’s just something about online casino that triumphs over the rest. At 3rdEmpire, we believe that playing casino online should be an experience of its own. With thousands of titles available at the click of a button, it’s become possible to play casino online from the comfort of your home.</p> 
+                                <p className='card-text'>All the while, sit back and immerse yourself in a world of mythical creatures and vigorous jokers
                             </p>
                          
                         </div>
